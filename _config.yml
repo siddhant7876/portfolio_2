@@ -14,8 +14,8 @@ urls:
       url: /pap
     - text: Blog
       url: /blog
-    - text: Gallery
-      url: /gallery
+    - text: CV
+      url: /cv
     - text: Shop
       url : /shop
     - text: Contact
@@ -46,7 +46,7 @@ author_work_experiences:
 author_education_details:
               - college_logo: iitk_logo.png
                 college_name: IIT Kanpur
-                college_url: https://mit.org
+                college_url: https://www.iitk.ac.in/
                 college_degree: B.S and M.S
                 description:  Mathematics and Scientific Computing
                 visibility: true
@@ -135,7 +135,7 @@ collections:
 defaults:
   -
     scope:
-      path: "gallery"
+      path: "cv"
     values:
       permalink: /:path/:basename:output_ext
   -
