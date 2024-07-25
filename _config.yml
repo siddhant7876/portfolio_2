@@ -53,16 +53,46 @@ author_education_details:
 
 # Projects
 author_project_details:
-              - project_thumbnail: gamershub.png
-                project_title: Gamers Hub
-                project_description: A Platform built for Gamers and Game Devs
-                project_url: https://gamershub.in
+              - project_thumbnail: porl.png
+                project_title: Portfolio Optimization using DL and RL
+                project_description: Solved for the efficient frontier, estimated portfolio betas and correlations, predicted price movements with deep learning models, conducted a literature review on DWT and technical indicators, and planned future work on Reinforcement Learning for portfolio management.
+                project_url: https://github.com/siddhant7876/Portfolio_optimization_7876
                 visibility: true
-              - project_thumbnail: hack4r.PNG
-                project_title: Hack4r
-                project_description: A Platform built for Hackers and Penetration Testers
-                project_url: https://hack4r.com
+              - project_thumbnail: magtrl.png
+                project_title: Multi-Agent game theoretic RL simulation
+                project_description: Conducted literature review on Reinforcement Learning, Game Theory in biology and economics, and altruism in animals. Derived insights into natural altruism and agent strategies. Built a Deep Q-network with Leaky ReLU in PyTorch for agent decision-making. Demonstrated the value of altruism through extensive simulations across various species.
+                project_url: https://github.com/siddhant7876/RL_project/tree/master/why-would-you-do-that
                 visibility: true
+              - project_thumbnail: simda.png
+                project_title: Statistical Simulation and data analysis
+                project_description: Implemented OLLLTN distribution for bimodal data in (0,1), validated via Monte Carlo simulations, and optimized convergence. Applied to Human Development Index data, showing superior AIC and GD performance over other models.
+                project_url: Coming Soon
+                visibility: true
+              - project_thumbnail: mbmm.png
+                project_title: Modeling data with Bayesian Mixed-effects model
+                project_description: Analyzed dragonfly population data, justifying Zero-Inflated Bi-variate Geometric (ZIBGe) as the GLMM model. Used MCMC with JAGS for parameter estimation, confirmed convergence, and proved ZIBGe's superiority over BZIP using DIC.
+                project_url: Coming Soon
+                visibility: true
+              - project_thumbnail: forcnn.png
+                project_title: Faster RCNN for object detection
+                project_description: Reviewed papers on R-CNN and Faster R-CNN, analyzing time complexities and computational efficiency. Trained and fine-tuned a Faster R-CNN model on Kaggle's fruit detection dataset, achieving 88% accuracy using PyTorch.
+                project_url: https://github.com/siddhant7876/Faster-RCNN
+                visibility: true
+              - project_thumbnail: algo.png
+                project_title: Algo 101x
+                project_description: Implemented algorithms for binary search, hashing, collision handling, Sieve of Eratosthenes, factorization, and Dynamic Programming with bitmasking. Explored range query techniques (sqrt decomposition, segment trees, sparse tables, binary indexed trees) and variations of the Knapsack problem, binary lifting, and Union-Find.
+                project_url: Coming Soon
+                visibility: true
+
+#Publications
+author_publication_details:
+                  - publication_thumbnail: cultllm.png
+                    publication_title: Towards Measuring and Modeling “Culture” in LLMs A Survey
+                    publication_description: Surveyed over 90 recent papers on cultural representation in large language models (LLMs). Noted that studies lack a clear definition of "culture," using proxies like demographic and semantic aspects instead. Found gaps in exploring diverse cultural facets, robustness of probing methods, and the impact of cultural misrepresentation in LLM applications.
+                    publication_links: https://doi.org/10.48550/arXiv.2403.15412
+                    visibility: true
+
+
 
 # social links
 twitter_username: siddhant7876
@@ -104,7 +134,7 @@ permalink: pretty
 show_author_work_experiences: true
 show_author_education_details: true
 show_author_project_details: true
-
+show_author_publication_details : true
 # pagination of posts
 paginate: 4
 per_page: 4
