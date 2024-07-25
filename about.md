@@ -1,5 +1,5 @@
 ---
-title: About
+title: Projects & Publications
 layout: about-me
 permalink: /pap/
 ---
